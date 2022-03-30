@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /*o tamanho da caixa vai ser exatamente a largura definida pela propriedade width*/
+}
+
+body{
+    background-image: linear-gradient(to right, #D980FA, #3f48cc);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+}
+
+form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+    height: 200px;
+    /* border: 1px solid #000; */
+    background-color: #22a6b3;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px #1B1464;
+    background-image: linear-gradient(to left, #D980FA, #3f48cc);
+}
+
+img{ /*pq se eu trocar a ordem com o input não muda a ordem que aparece?*/
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    right: 5px;
+}
+
+.password{
+    position: relative; /* todos os elementos filhos com posição obsolute de um pai, em uma posição diferente de static, terão como referência o elemento pai */
+    /* border: 1px solid #000; */
+    width: 200px;
+    height: 30px;
+    margin-left: 10px;
+}
+
+input{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    font-size: 20px;
+    padding: 10px;
+}
+
+
